@@ -24,3 +24,7 @@ class Schedule():
             s.append(f'{v}')
         s.append(f'Meetings today: {len(self.d)}')
         return '\n'.join(s)
+
+
+# do a overload __eq__ and __gt__
+# then the sort function will work
